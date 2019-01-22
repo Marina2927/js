@@ -1,0 +1,65 @@
+.title{
+    font-size: 50pt;
+    font-weight: bold;
+}
+
+.btn{
+    width: 150pt;
+    height: 40pt;
+    font-size: 20pt;
+    font-weight: bold;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.play-btn{
+    margin-top: 140px;   
+}
+
+.score-btn{
+    margin-top: 40px;
+}
+
+.rules{
+    margin-top: 80px;   
+}
+
+#grid{
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 90px;
+    padding-left: 35%;
+    padding-right: 35%;
+}
+
+#grid > div{
+    background-size: 140px;
+    background-repeat: no-repeat;
+}
+
+.hole{
+    background-image: url(img/Hole.png);
+
+}
+
+.mole{
+    background-image: url(img/Mole.png);
+
+}
+
+.score{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 50%;
+}
+
+.time{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: absolute;
+    left: 8%;
+    top: 55%;
+}
